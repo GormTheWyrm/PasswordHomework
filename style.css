@@ -1,0 +1,28 @@
+
+
+body{
+text-align: center;
+align-content: center;
+background-color: black;
+}
+#div1{
+/* this should be main pg,  */
+background-color: azure;
+margin: auto;
+height: 600px;
+width: 960px;
+}
+#bckgrnd{
+align-content: center;
+margin: auto;
+height: 360px;
+width: 600px;
+background-color: cadetblue;
+}
+#pwZone{
+align-content: center;
+margin: auto;
+}
+#pw{
+
+}
