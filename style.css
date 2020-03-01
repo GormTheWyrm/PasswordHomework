@@ -34,7 +34,7 @@ background-color: cadetblue;
         /* this will break if viewed on a ginormous screen.  */
 
 }
-#generate-button{
+#generateButton{
     /* padding: 2px 14px; */
     margin-top: 8px;
 }
