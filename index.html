@@ -7,7 +7,7 @@
     <title>Password Generator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<!-- bootstrap -->
+    <!-- bootstrap -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -41,37 +41,32 @@ On button click:
 -->
 
 
-<div class="container-lg" id="div1">
-    <h1>Password Generator</h1>
-    <!-- may need to be in a row -->
+    <div class="container-lg" id="div1">
+        <h1>Password Generator</h1>
+        <!-- may need to be in a row -->
+
+        <div class="row">
+            <div id="bckgrnd" class="col-md-6 col-sm-8">
+
+                <h2>Generate Your Password</h2>
+
+                <h3 id="pw">
+                    Your Secure Password
+                    <!-- make this background have a dashed border -->
+                </h3>
 
 
 
-
-
-
-
-     
-        
-        <div id="bckgrnd">
-            <!-- white background -->
-            <h2>Generate Your Password</h2>
-
-            <p id="pw">
-                Your Secure Password
-                <!-- make this background have a dashed border -->
-            </p>
-
-
-
+            </div>
         </div>
-        <button id="generate-button">Generate Password</button>
-        <!-- button https://getbootstrap.com/docs/4.4/components/buttons/ -->
-        <!-- make this a bootstrap button -->
-    
+            <button class="btn btn-danger" id="generate-button">Generate Password</button>
+            <!-- button https://getbootstrap.com/docs/4.4/components/buttons/ -->
+            <!-- make this a bootstrap button -->
+            
 
+       
 
-</div>
+    </div>
 
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
