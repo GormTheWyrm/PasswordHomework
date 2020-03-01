@@ -19,6 +19,7 @@ var hasUpper;
 var hasNum;
 var hasSpecial;
 var isValid = false;
+var pw = document.querySelector("#pw");
 
 //goal is to create a string using up to 4 groups
     //use 4 arrays to pick a random character
@@ -83,15 +84,12 @@ function createPassword() {
                 // not including finalArray.length but thats ok, because finallArray[length] is null
             //FIX *************
         pwArray[i] = finalArray[x];
-        // password += finalArray[x];   //failed
-        // password = password.concat(finalArray[x]);       //failed
-            //going to use .join to make an array a string!
-        // console.log("my password is" + pwArray[i]);
+
     }
     password = pwArray.join("");
     console.log("may password is "+password);
-   
-        //for length pick random number
+        //make this replace "pw"s text content
+        pw.textContent = password;
 }   //end of createPassword function
 
 

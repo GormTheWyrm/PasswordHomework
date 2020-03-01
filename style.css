@@ -20,19 +20,21 @@ margin-right: auto;
 #bckgrnd{
 align-content: center;
 margin: auto;
-height: 360px;
+/* height: 360px; */
+height: auto;
 /* width: 600px; */
 background-color: cadetblue;
 /* container not fitting max size... may need to do this manually */
 }
 
 #pw{
-    padding: 75px 5px 75px;
+    padding: 5px 5px 75px;
     border: dashed  red;
     margin-left: 5vw;
     margin-right: 5vw;
         /* this will break if viewed on a ginormous screen.  */
-
+        margin-bottom: 75px;
+        word-wrap: break-word;
 }
 #generateButton{
     /* padding: 2px 14px; */
